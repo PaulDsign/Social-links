@@ -1,0 +1,81 @@
+html {
+    background-color: hsl(0, 0%, 8%);
+    max-width: 1440PX;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.content {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: hsl(0, 0%, 12%);
+    max-width: 400px;
+    border-radius: 10px;
+    height: 700px;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 4px;
+    margin-top: 0px;
+}
+
+.country {
+    padding-top: 0px;
+    margin-top: 4px;
+    color: hsl(75, 94%, 57%);
+}
+
+p {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+h3 {
+    text-align: center;
+}
+
+.bio {
+    margin-top: 32px;
+    color: hsl(0, 0%, 100%);
+}
+
+.button-h3 {
+    color: hsl(0, 0%, 100%);
+}
+
+.button {
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 4px;
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    width: 85%;
+    display: block;
+}
+
+.button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
